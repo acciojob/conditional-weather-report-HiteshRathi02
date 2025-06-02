@@ -6,7 +6,7 @@ export default function WeatherDisplay ({data}){
     return(
         <>
         <span style={{color:bgcolor}}>
-            <p>{data.temperature}</p>
+            <p>Temperature: {data.temperature}</p>
         </span>
         <p>
             {data.conditions}
