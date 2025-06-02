@@ -9,7 +9,7 @@ export default function WeatherDisplay ({data}){
             <p>Temperature: {data.temperature}</p>
         </span>
         <p>
-            {data.conditions}
+            conditions: {data.conditions}
         </p>
         </>
     )
